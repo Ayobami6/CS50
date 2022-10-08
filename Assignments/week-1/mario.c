@@ -33,14 +33,6 @@ int main(void)
             printf("#");
         }
 
-        // printf("#\n");
-
-        // printf("?");
-
-        // int h = h - 1;
-
         printf("\n");
     }
-
-    // printf("\n");
 }
