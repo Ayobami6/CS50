@@ -10,7 +10,7 @@ int main(void)
 
     for (int i = 0; i < 2; i++)
     {
-        if (strcmp(names[i], "Ayo") == 0)
+        if (strcmp(names[i], "Seyi") == 0)
         {
             printf("Found %s\n", numbers[i]);
             return 0;
