@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/**
+ * Pointer arithmetic
+ */
 int main(void)
 {
     char *s = "HI!";
