@@ -14,13 +14,13 @@ int main(void)
 
     char *t = malloc(strlen(s) + 1); /*takes number of bytes as an argument*/
 
-    if (t == NULL)
+    if (t == NULL) /*incase malloc gives no memory address*/
     {
         puts("error");
         return 1;
     }
 
-    strcpy(t, s);
+    strcpy(t, s); /*copied s to dynamic allocated memory created usng malloc */
 
     if (strlen(t) > 0)
     {
@@ -30,7 +30,7 @@ int main(void)
     printf("s is %s\n", s);
     printf("t is %s\n", t);
 
-    free(t);
+    free(t); /*freeing memory*/
     return 0;
 }
 
