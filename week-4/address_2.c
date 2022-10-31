@@ -8,6 +8,7 @@ int main(void)
     printf("%p\n", &s[1]);
     printf("%p\n", &s[2]);
     printf("%p\n", &s[3]);
+    printf("%s\n", s);
 }
 
 /*The address of the first character in the string is the same as the string variable s*/

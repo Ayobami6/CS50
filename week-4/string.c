@@ -7,4 +7,5 @@ int main(void)
     string name = "Ayobami";
 
     printf("%s is the name\n", name);
+    printf("%i\n", name[2]);
 }

@@ -1,0 +1,38 @@
+for i = o, i less than strlen(word) i++
+        if word[i] == 
+
+while letter not equals 
+count = 0
+for c=65, c <91, c++, count++
+if c == word[i]
+        if islower(word[i])
+        points += Points[count]
+        else
+        points += Points[count]
+else 
+points += points[counts]
+
+ for (c = 'a'; c <= 'z'; c++, count++)
+        {
+            if (c == word[i])
+
+for (c = 'a'; c <= 'z'; c++)
+        {
+            if (c != word[i])
+            {
+                ;
+                count++;
+                printf("%i\n", count);
+            }
+        }
+        printf("%c", word[i]);
+        if (islower(word[i]))
+        {
+            score += POINTS[count];
+        }
+        else
+            score += POINTS[count];
+        if (/* condition */)
+        {
+            /* code */
+        }

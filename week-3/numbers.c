@@ -4,7 +4,7 @@
 int main(void)
 {
     // creating an arrays of integers numbers
-    int numbers[] = {4, 6, 8, 7, 7, 5, 0};
+    int numbers[7] = {4, 6, 8, 7, 7, 5, 0};
 
     // creating a Linear search
 
