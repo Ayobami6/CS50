@@ -1,5 +1,6 @@
-#include <cs50.h>
 #include <stdio.h>
+
+typedef char *string;
 
 int main(int argc, string argv[])
 {
@@ -7,7 +8,7 @@ int main(int argc, string argv[])
     // i.e if arg count is equal to 2 print hello and the second arg provided by the user in the command line
     if (argc == 2)
     {
-        printf("hello, %s\n", argv[1]);
+        printf("hello, %s arg count is: %d\n", argv[1], argc);
     }
 
     // else just print hello, world
