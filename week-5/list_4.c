@@ -9,7 +9,7 @@ typedef struct node
 
 int main()
 {
-    // list of size
+    // list of size 0
     node *list = NULL;
 
     // add a number to list
