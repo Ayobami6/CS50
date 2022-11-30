@@ -7,6 +7,12 @@ typedef struct build_list
     struct build_list *next;
 } build_list;
 
+typedef struct person
+{
+    int age;
+    int weight;
+} person;
+
 build_list *add_node(build_list *head, int n)
 {
     build_list *new_node;
@@ -43,4 +49,7 @@ int main(void)
     {
         printf("%i\n", tmp->n);
     }
+
+    printf("%li", sizeof(person));
+
 }
