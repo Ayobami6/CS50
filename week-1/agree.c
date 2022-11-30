@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    // prompt user for agree
+    // prompt user for response agree or not
     char c = get_char("Do you agree?: ");
 
     // check  whether user agree
