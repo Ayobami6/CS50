@@ -15,4 +15,4 @@ def meow():
 
 
 main()
-yes = 'yes'
+# yes = 'yes'
