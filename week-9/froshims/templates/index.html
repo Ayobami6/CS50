@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<h1> Register for your sport!</h1>
+
+<form action="/register" method="post">
+    <span> Name : <input type="text" name="name" autocomplete="off" autofocus placeholder="Name">
+    </span>
+    <select name="sport">
+        <option disabled selected> Choose Sport</option>
+        <!-- <option value="Basketball">Basketball</option>
+        <option value="Soccer">Soccer</option>
+        <option value="Football">Football</option> -->
+        <!-- Using jinja for loops instead off html hardcode -->
+        {% for sport in sports %}
+        <option value="{{ sport }}"> {{ sport }}</option>
+        {% endfor %}
+    </select>
+    <button type="submit">Register</button>
+</form>
+
+{% endblock %}
