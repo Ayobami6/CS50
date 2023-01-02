@@ -3,14 +3,17 @@
 {% block body %}
 <table>
     <thead>
+        <th>Id</th>
         <th>Name</th>
         <th>Sport</th>
     </thead>
     <tbody>
-        {% for name in registrants %}
+        {% for registrant in registrants %}
         <tr>
-            <td>{{ name }}</td>
-            <td>{{ registrants[name] }}</td>
+            <td>{{ registrant[0] }}</td>
+            <td>{{ registrant[1] }}</td>
+            <td> {{ registrant[2] }}</td>
+            <td>{{ registrant[3] }}</td>
         </tr>
         {% endfor %}
     </tbody>
